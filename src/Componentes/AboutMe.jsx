@@ -25,7 +25,7 @@ const AboutMe = () => {
             <div className={style.text}>
                 <div>
                     <h1>Ola, eu sou o <span className={style.destaque}>Narciso.</span></h1>
-                    <span className={style.subtitle}>Full-stack | JavaScript | React | Node | Typescript</span><br/>
+                    <span className={style.subtitle}>Full-stack | JavaScript | React | Node.js | Typescript</span><br/>
                     <p>
                     Sou um estudante apaixonado por tecnologia, com ênfase no desenvolvimento front-end. 
                     Tenho experiência em criar interfaces com layouts modernos e responsivos, sempre priorizando a experiência do usuário e o desempenho. 
