@@ -53,6 +53,7 @@
     border-radius: 13px;
 }
 
+
 /*Area do texto*/
 
 .destaque{
@@ -69,12 +70,13 @@
 
 .text{
     color: #acacac;
-    padding: 25px;
+    padding: 25px 25px 40px 25px;
     background-color: #0E0E0E;
     border-radius: 0px 10px 10px 0 ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .text h1{
@@ -84,13 +86,15 @@
 
 .text p{
     margin-top: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    max-width: 470px;
+    line-height: 25px;
 }
 
 .preencher{              
     background-color: #FFE03A; 
     border-radius: 10px; 
-    height: 40%;
+    height: 50px;
 }                           
 
 
