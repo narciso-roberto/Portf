@@ -1,0 +1,96 @@
+
+.header{
+    background-color: #121212;
+    border-bottom: 2px solid #FFD600;
+    padding: 30px 0px;
+}
+
+.header h1{
+    font-size: 1.8rem;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1020px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    gap: 20px;
+}
+
+.navegacao ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+    font-size: 1.3rem;
+}
+
+.navegacao ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttonHambur{
+  display: none;
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #ffd900;
+  color: #262000;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 390px) {
+  .buttonHambur{
+    display: initial;
+  }
+
+  .navegacao ul{
+    display: none;
+  }
+
+  .mobile .listButtons{
+    right: 20px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    background-color: #121212;
+    padding: 10px;
+    border: 2px solid #FFD600;
+}
+
+    .mobile .navegacao{
+    position: relative;
+    }
+
+    .navegacao{
+        padding: 0px 15px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

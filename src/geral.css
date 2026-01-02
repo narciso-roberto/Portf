@@ -31,8 +31,23 @@ body{
     font-style: normal;
 }
 
-
-.container{
-    max-width: 1200px;
-    margin: 0px auto;
+.listSection{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
+
+
+.button{
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #ffd900;
+  color: #262000;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+
+

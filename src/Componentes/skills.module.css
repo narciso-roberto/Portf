@@ -1,0 +1,225 @@
+.skills {
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  padding: 20px 50px;
+}
+
+.destaque {
+  color: #ffe350;
+}
+
+.grid {
+  display: flex;
+  gap: 40px;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+
+.grid h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.hard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  max-width: 450px;
+  background: #181818;
+  border-radius: 10px;
+  padding: 24px 30px;
+  box-shadow: 0 2px 12px #00000030;
+  width: 100%;
+}
+
+.hard h1 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.hardList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  height: 100%;
+}
+
+.hardList ul{
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  background-color: #2f2f2f;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+
+
+.skill img{
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.skill div{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+
+}
+
+.tecName{
+  font-size: 1.3rem;
+  color: #ffd600;
+}
+
+
+/* SOFTSKILLS AREA */
+
+.soft {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  max-width: 450px;
+  min-width: 260px;
+  background: #181818;
+  border-radius: 10px;
+  padding: 24px 30px;
+  box-shadow: 0 2px 12px #00000030;
+}
+
+.soft h1 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.soft h1 span {
+  color: #ffe350;
+}
+
+.soft ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 18px;
+  height: 100%;
+}
+
+.soft ul h2 {
+  font-size: 1.3rem;
+  color: #ffd600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.soft ul h2::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 5px;
+  background-color: #ffd500;
+}
+
+.soft ul p {
+  font-size: 1rem;
+  color: #c4c4c4;
+  margin-top: 5px;
+  margin-left: 0;
+}
+
+.standOut{
+  color: #ffea7f;
+  background-color: #0e0e0e;
+  border-radius: 10px;
+  padding: 2px 4px;
+}
+
+@media (max-width: 1055px) {
+  .grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .hard {
+    min-width: unset;
+  }
+
+  .hardList {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .grid {
+    padding: 0 10px;
+  }
+
+  .hard {
+    max-width: 100%;
+    min-width: unset;
+    padding: 14px 8px;
+  }
+
+  .hardList {
+    gap: 12px;
+  }
+
+  .soft {
+    min-width: unset;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 440px) {
+  .soft ul h2 {
+    font-size: 1.4rem;
+  }
+}
+
+
+@media (max-width: 440px) {
+  .skills {
+    padding: 20px 10px;
+  }
+  .soft h1,
+  .hard h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .hardList ul{
+    width: 100%;
+
+  }
+
+  .hardList{
+    max-width: 200px;
+  }
+}
+
+
