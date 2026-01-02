@@ -43,15 +43,6 @@ Este portfólio reúne projetos criados para:
 
 ---
 
-## 💡 O que me motiva
-- curiosidade
-- disciplina
-- aprendizado contínuo
-
-Gosto de transformar teoria em soluções práticas.
-
----
-
 ## 📫 Contato
 **Local:** Ocara — CE  
 **Telefone:** +55 85 99400-6113  
