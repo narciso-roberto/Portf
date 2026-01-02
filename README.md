@@ -1,65 +1,58 @@
-Portfólio — Narciso Roberto
-Sobre mim
+# Portfólio — Narciso Roberto
 
-Sou Narciso Roberto, estudante de Sistemas de Informação com foco em desenvolvimento Full-Stack JavaScript. Tenho interesse especial em soluções que conectam tecnologia, aprendizado contínuo e impacto real.
+## Sobre mim
+Sou **Narciso Roberto**, estudante de **Sistemas de Informação** com foco em **desenvolvimento Full-Stack JavaScript**.
 
-Atualmente estudo e pratico:
+Atualmente estudo:
 
-Node.js e TypeScript
+- **Node.js** e **TypeScript**
+- **React**
+- **SQL / PostgreSQL**
+- Boas práticas (Git, organização de código, arquitetura)
 
-React e desenvolvimento web
+---
 
-SQL / PostgreSQL
+## 🎯 Objetivo do portfólio
+Este portfólio reúne projetos criados para:
 
-Boas práticas: organização de código, versionamento (Git/GitHub) e arquitetura
+- praticar
+- consolidar fundamentos
+- testar novas tecnologias
 
-Meu objetivo é evoluir de forma consistente, construindo projetos que demonstrem tanto a parte técnica quanto a forma de pensar soluções.
+---
 
-Objetivo do portfólio
+## 🚀 Projetos em destaque
 
-Este repositório reúne projetos que desenvolvi para:
+### 1️⃣ Sistema de Controle de Estoque (FastAPI + SQLModel)
+- API para gestão de produtos, entradas e saídas.
+- Migrações, relacionamentos e consultas mais complexas.
 
-praticar conceitos aprendidos em aula e estudos independentes
+---
 
-consolidar fundamentos de back-end e front-end
+### 2️⃣ Dogs — Rede Social para Cachorros (React)
+- Inspirada no Instagram.
+- Upload de fotos, comentários, curtidas e rotas internas.
 
-experimentar novas tecnologias e padrões de desenvolvimento
+---
 
-Cada projeto representa uma etapa do meu aprendizado.
+### 3️⃣ Bikcraft — Site de Bicicletas Personalizadas
+- HTML + CSS + JavaScript
+- Layout responsivo, semântica e acessibilidade.
 
-Projetos em destaque
-1. Sistema de Controle de Estoque — API (FastAPI + SQLModel)
+> Cada projeto possui README próprio com detalhes.
 
-API para gerenciamento de produtos, entradas e saídas.
+---
 
-Integra migrações de banco, relacionamentos e consultas mais complexas.
+## 💡 O que me motiva
+- curiosidade
+- disciplina
+- aprendizado contínuo
 
-Abordagem inspirada em cenários reais de gestão de estoque.
+Gosto de transformar teoria em soluções práticas.
 
-2. Dogs — Rede Social para Cachorros (React)
+---
 
-Aplicação web inspirada no Instagram.
-
-Funcionalidades: cadastro, upload de fotos, comentários, curtidas e rotas internas.
-
-Foco em componentes, hooks e contexto global.
-
-3. Bikcraft — Site de Venda de Bicicletas Personalizadas
-
-Projeto front-end com HTML, CSS e JavaScript.
-
-Layout responsivo, semântica e boas práticas de acessibilidade.
-
-Ênfase em organização visual e interação.
-
-Cada projeto possui instruções próprias para instalação e execução no respectivo repositório.
-
-Como trabalho e o que me motiva
-
-Curiosidade constante
-
-Disciplina e prática diária
-
-Vontade de transformar teoria em soluções úteis
-
-Gosto de aprender, testar ideias e melhorar continuamente — sempre documentando o processo.
+## 📫 Contato
+**Local:** Ocara — CE  
+**Telefone:** +55 85 99400-6113  
+**E-mail:** narcisoroberto1369@gmail.com
