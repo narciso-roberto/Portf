@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './AboutMe.module.css'
-import picture from '../Fotos/quadro 1.png'
+import picture from '../Fotos/quadro 1.jpg'
 import github from "../Fotos/icons8-github.svg"
 import linkedin from "../Fotos/icons8-linkedin.svg"
 import zap from "../Fotos/icons8-whatsapp.svg"
