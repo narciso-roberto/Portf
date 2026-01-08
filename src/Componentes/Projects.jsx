@@ -1,8 +1,8 @@
 import React from "react";
 import style from "./projects.module.css";
-import Pdogs from "../Fotos/Gemini_Generated_Image_sihbz3sihbz3sihb.png";
-import Pbike from "../Fotos/Screenshot from 2025-12-31 11-45-17.png";
-import Pestoque from "../Fotos/Screenshot from 2025-12-31 11-48-09.png";
+import Pdogs from "../Fotos/Gemini_Generated_Image_sihbz3sihbz3sihb.jpg";
+import Pbike from "../Fotos/Screenshot from 2025-12-31 11-45-17.jpg";
+import Pestoque from "../Fotos/Screenshot from 2025-12-31 11-48-09.jpg";
 
 export default function Projects() {
   return (
