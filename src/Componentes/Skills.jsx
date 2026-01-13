@@ -27,7 +27,7 @@ const Skills = () => {
                     src={iReact}
                     alt="React para desenvolvimento front-end e aplicações web modernas"
                   />{" "}
-                  React 
+                  React
                 </div>
                 <div>
                   <img
@@ -66,10 +66,18 @@ const Skills = () => {
               <span className={style.tecName}>&lt;DataBase&gt;</span>
               <li className={style.skill}>
                 <div>
-                  <img src={iPostgress} /> Postgresql
+                  <img
+                    src={iPostgress}
+                    alt="PostgreSQL para bancos de dados relacionais e aplicações back-end"
+                  />
+                  Postgresql
                 </div>
                 <div>
-                  <img src={iMongo} /> MongoDB
+                  <img
+                    src={iMongo}
+                    alt="MongoDB para banco de dados NoSQL e aplicações back-end"
+                  />
+                  MongoDB
                 </div>
               </li>
             </ul>

@@ -10,7 +10,7 @@ const AboutMe = () => {
     <section className={style.aboutMe}>
       <div className={style.card}>
         <div className={style.foto}>
-          <img src={picture} />
+          <img src={picture} alt="Narciso Roberto, desenvolvedor front-end e back-end especializado em aplicações web"/>
           <div className={style.infos}>
             <p>Cursando bacharelado em SI</p>
           </div>
