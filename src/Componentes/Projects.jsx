@@ -6,55 +6,75 @@ import Pestoque from "../Fotos/Screenshot from 2025-12-31 11-48-09.jpg";
 
 export default function Projects() {
   return (
-    <div className={style.container} id='projetos'>
-
-    <div className={style.title}>
+    <div className={style.container} id="projetos">
+      <div className={style.title}>
         <h1>Principais Projetos.</h1>
         <div className={style.row}>
-            <span></span>
+          <span></span>
         </div>
-    </div>
-      
+      </div>
+
       <ul className={style.listProject}>
         <li>
           <a target="_blank" href="https://github.com/narciso-roberto/Bikcraft">
-            <img src={Pdogs} />
+            <img
+              src={Pdogs}
+              alt="Projeto Dogs em React, rede social web inspirada no Instagram com autenticação, posts e feed"
+            />
           </a>
           <h1>Dogs — Rede Social (Clone Inspirado no Instagram)</h1>
           <p>
             Desenvolvimento de uma aplicação web completa inspirada no
             Instagram, criada totalmente do zero utilizando React.
           </p>
-          <a className="button" target="_blank" href="https://github.com/narciso-roberto/Dogs">
+          <a
+            className="button"
+            target="_blank"
+            href="https://github.com/narciso-roberto/Dogs"
+          >
             Acessar
           </a>
         </li>
         <li>
           <a target="_blank" href="https://github.com/narciso-roberto/Bikcraft">
-            <img src={Pbike} />
+            <img
+              src={Pbike}
+              alt="Projeto Bikcraft, site profissional para venda de bicicletas personalizadas desenvolvido com HTML e CSS"
+            />
           </a>
           <h1>Bikcraft — Site para Venda de Bicicletas Personalizadas</h1>
           <p>
             Projeto focado na criação de um site profissional utilizando HTML,
             CSS.
           </p>
-          <a className="button" target="_blank" href="https://github.com/narciso-roberto/Bikcraft">
+          <a
+            className="button"
+            target="_blank"
+            href="https://github.com/narciso-roberto/Bikcraft"
+          >
             Acessar
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/narciso-roberto/Trabalho-2-persistencia">
-            <img src={Pestoque}/>
+          <a
+            target="_blank"
+            href="https://github.com/narciso-roberto/Trabalho-2-persistencia"
+          >
+            <img
+              src={Pestoque}
+              alt="Sistema de controle de estoque com persistência de dados desenvolvido como projeto acadêmico"
+            />
           </a>
-          <h1>
-            Sistema de Estoque com FastAPI e Banco de dados
-            assíncrono
-          </h1>
+          <h1>Sistema de Estoque com FastAPI e Banco de dados assíncrono</h1>
           <p>
             Projeto de uma API desenvolvida durante a faculdade, utilizando
             FASTAPI/ SQLModel/ Alembic além de uma ORM.
           </p>
-          <a className="button" target="_blank" href="https://github.com/narciso-roberto/Trabalho-2-persistencia">
+          <a
+            className="button"
+            target="_blank"
+            href="https://github.com/narciso-roberto/Trabalho-2-persistencia"
+          >
             Acessar
           </a>
         </li>

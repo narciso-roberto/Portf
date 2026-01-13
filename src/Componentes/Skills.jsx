@@ -23,11 +23,22 @@ const Skills = () => {
               <span className={style.tecName}>&lt;Front-end&gt;</span>
               <li className={style.skill}>
                 <div>
-                  <img src={iReact} /> React
+                  <img
+                    src={iReact}
+                    alt="React para desenvolvimento front-end e aplicações web modernas"
+                  />{" "}
+                  React 
                 </div>
                 <div>
-                  <img src={iHtml} />
-                  <img src={iCss} /> HTML/Css
+                  <img
+                    src={iHtml}
+                    alt="HTML5 para estruturação semântica de aplicações web"
+                  />
+                  <img
+                    src={iCss}
+                    alt="CSS3 para estilização e layout responsivo"
+                  />{" "}
+                  HTML / CSS
                 </div>
               </li>
             </ul>
@@ -35,10 +46,18 @@ const Skills = () => {
               <span className={style.tecName}>&lt;Back-end&gt;</span>
               <li className={style.skill}>
                 <div>
-                  <img src={iNode} /> Node
+                  <img
+                    src={iNode}
+                    alt="Node.js para desenvolvimento back-end e APIs"
+                  />{" "}
+                  Node.js
                 </div>
                 <div>
-                  <img src={iType} /> Typescript
+                  <img
+                    src={iType}
+                    alt="TypeScript para desenvolvimento back-end com tipagem estática"
+                  />{" "}
+                  TypeScript
                 </div>
               </li>
             </ul>
@@ -71,22 +90,29 @@ const Skills = () => {
                   {" "}
                   desenvolvendo comunicação objetiva
                 </span>{" "}
-                com os alunos para esclarecer dúvidas, orientar estudos e fornecer apoio.
+                com os alunos para esclarecer dúvidas, orientar estudos e
+                fornecer apoio.
               </p>
             </li>
 
             <li>
               <h2>Desenvolvimento Web</h2>
               <p>
-                <span className={style.standOut}>Experiência prática com HTML, CSS, JavaScript e React</span>, criando
-                aplicações completas, responsivas e focadas em usabilidade.
+                <span className={style.standOut}>
+                  Experiência prática com HTML, CSS, JavaScript e React
+                </span>
+                , criando aplicações completas, responsivas e focadas em
+                usabilidade.
               </p>
             </li>
 
             <li>
               <h2>Back-end com Node e TypeScript</h2>
               <p>
-                Estudo e <span className={style.standOut}>desenvolvimento de APIs utilizando Node.js, TypeScript</span>
+                Estudo e{" "}
+                <span className={style.standOut}>
+                  desenvolvimento de APIs utilizando Node.js, TypeScript
+                </span>
                 e banco de dados SQL/PostgreSQL, com foco em organização de
                 código e boas práticas.
               </p>
@@ -95,9 +121,10 @@ const Skills = () => {
             <li>
               <h2>Projetos Acadêmicos Reais</h2>
               <p>
-                <span className={style.standOut}>Participação em projetos</span> como sistemas de estoque, redes sociais
-                e sites profissionais, aplicando conceitos de lógica, estrutura
-                de dados, versionamento com Git.
+                <span className={style.standOut}>Participação em projetos</span>{" "}
+                como sistemas de estoque, redes sociais e sites profissionais,
+                aplicando conceitos de lógica, estrutura de dados, versionamento
+                com Git.
               </p>
             </li>
           </ul>
