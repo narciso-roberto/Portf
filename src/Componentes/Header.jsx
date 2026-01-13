@@ -14,8 +14,8 @@ const Header = () => {
         <h1>NARCISO.</h1>
     
         <ul className={styles.listButtons}>
-          <a href="#projetos">Projetos</a>
-          <a href="#skills">Skills</a>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#skills">Skills</a></li>
         </ul>
 
         <button onClick={handleClick} className={styles.buttonHambur}>Menu</button>
