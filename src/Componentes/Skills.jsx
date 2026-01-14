@@ -115,13 +115,13 @@ const Skills = () => {
             </li> */}
 
             <li>
-              <h2>Back-end com Node e TypeScript</h2>
+              <h2>Back-end</h2>
               <p>
                 Estudo e{" "}
                 <span className={style.standOut}>
-                  desenvolvimento de APIs utilizando Node.js, TypeScript
+                  desenvolvimento de APIs utilizando
                 </span>
-                e banco de dados SQL/PostgreSQL, com foco em organização de
+                e banco de dados SQL/PostgreSQL e MongoDB, com foco em organização de
                 código e boas práticas.
               </p>
             </li>
