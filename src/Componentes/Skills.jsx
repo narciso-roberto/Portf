@@ -103,7 +103,7 @@ const Skills = () => {
               </p>
             </li>
 
-            <li>
+            {/* <li>
               <h2>Desenvolvimento Web</h2>
               <p>
                 <span className={style.standOut}>
@@ -112,7 +112,7 @@ const Skills = () => {
                 , criando aplicações completas, responsivas e focadas em
                 usabilidade.
               </p>
-            </li>
+            </li> */}
 
             <li>
               <h2>Back-end com Node e TypeScript</h2>
